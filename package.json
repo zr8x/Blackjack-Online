@@ -1,0 +1,20 @@
+{
+  "name": "blackjack-online",
+  "version": "1.0.0",
+  "description": "Server side for an online blackjack game.",
+  "main": "server.js",
+  "repository": {
+    "url": "https://github.com/zr8x/Blackjack-Online.git"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "zr8x",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "socket.io": "^4.8.1"
+  }
+}
